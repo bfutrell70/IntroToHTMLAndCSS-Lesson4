@@ -7,6 +7,13 @@
         {
             "type": "chrome",
             "request": "launch",
+            "name": "Chrome-launch bootstrap-prestructure.html",
+            "file": "${workspaceRoot}/bootstrap-prestructure.html",
+            "webRoot": "${workspaceRoot}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
             "name": "Chrome - launch index.html",
             "file": "${workspaceRoot}/index.html",
             "webRoot": "${workspaceRoot}"
