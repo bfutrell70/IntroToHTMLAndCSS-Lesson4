@@ -41,12 +41,12 @@
             <div class="row">
                 <div class="col-md-6">
                     <img src="./image/placeimg_555_300_animals_1.jpg" class="img-responsive" data-toggle="modal" data-target="#project1">
-                    <h3>Appify</h3>
+                    <h3>Sunshine</h3>
                     <p><a href="http://github.com/">Link to project</a></p>
                 </div>
                 <div class="col-md-6">
-                    <img src="./image/placeimg_555_300_animals_2.jpg" class="img-responsive" data-toggle="modal" data-target="#project1">
-                    <h3>Appify</h3>
+                    <img src="./image/placeimg_555_300_animals_2.jpg" class="img-responsive" data-toggle="modal" data-target="#project2">
+                    <h3>WebEngine.PDF</h3>
                     <p><a href="http://github.com/">Link to project</a></p>
                 </div>
             </div>
@@ -69,11 +69,11 @@
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                        <h4 class="modal-title" id="myModalLabel">Sunshine</h4>
                     </div>
                     <div class="modal-body">
                         <img class="img-responsive" src="./image/placeimg_555_300_animals_5.jpg">
-                        This was my first project in this class. I learned a lot about HTML and CSS.
+                        This was a project that made a weather app for Android. Learned a lot from it.
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -81,5 +81,22 @@
                 </div>
             </div>
         </div>
+
+        <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-title" id="myModalLabel">WebEngine.PDF</h4>
+                        </div>
+                        <div class="modal-body">
+                            <img class="img-responsive" src="./image/placeimg_555_300_animals_5.jpg">
+                            Moved all code that dealt with creating PDF files on the fly into its own project.  Important to separate concerns - the varoius sites should not know how to make a PDF file.  They should only know to call the PDF project to make one.  This allows the PDF generation code to be modified in the future without requiring site changes.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </body>
 </html>
