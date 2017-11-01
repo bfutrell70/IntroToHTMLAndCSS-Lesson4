@@ -57,8 +57,8 @@
             </div>
             <div class="row dark-background text-center text-uppercase">
                 <div class="col-md-6">
-                    <img src="./image/placeimg_555_300_animals_3.jpg" class="img-responsive" data-toggle="modal" data-target="#project1">
-                    <h3 class="featured-work">Appify</h3>
+                    <img src="./image/placeimg_555_300_animals_3.jpg" class="img-responsive" data-toggle="modal" data-target="#project3">
+                    <h3 class="featured-work">Digger Dan</h3>
                     <p><a href="http://github.com/">Link to project</a></p>
                 </div>
                 <div class="col-md-6">
@@ -69,7 +69,7 @@
             </div>
         </div>
 
-        <!-- Modal -->
+        <!-- Modals -->
         <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -88,20 +88,37 @@
         </div>
 
         <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h4 class="modal-title" id="myModalLabel">WebEngine.PDF</h4>
-                        </div>
-                        <div class="modal-body">
-                            <img class="img-responsive" src="./image/placeimg_555_300_animals_5.jpg">
-                            Moved all code that dealt with creating PDF files on the fly into its own project.  Important to separate concerns - the varoius sites should not know how to make a PDF file.  They should only know to call the PDF project to make one.  This allows the PDF generation code to be modified in the future without requiring site changes.
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                        </div>
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">WebEngine.PDF</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="./image/placeimg_555_300_animals_5.jpg">
+                        Moved all code that dealt with creating PDF files on the fly into its own project.  Important to separate concerns - the varoius sites should not know how to make a PDF file.  They should only know to call the PDF project to make one.  This allows the PDF generation code to be modified in the future without requiring site changes.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
+        </div>
+
+        <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myModalLabel">Digger Dan</h4>
+                    </div>
+                    <div class="modal-body">
+                        <img class="img-responsive" src="./image/placeimg_555_300_animals_5.jpg">
+                        A game originally written in Turbo Pascal by John Johns III, I rewrote it in QuickBasic and updated it to use graphic tiles instead of text characters.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
