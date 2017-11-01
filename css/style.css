@@ -1,7 +1,12 @@
 body {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
     font-weight: 300;
     color: #747704
+}
+
+hr {
+    color: #D0C4AB;
+    border-width: 3px;
 }
 
 .text-muted {
@@ -14,8 +19,22 @@ body {
 
 .title-super {
     font-size: 60px;
+    font-weight: 800;
 }
 
 .title-logo {
     margin-top: 20px;
+}
+
+.dark-background {
+    background-color: #131A2D;
+    color: #D0C4AB;
+}
+
+.main-image {
+    margin-top: 10px;
+}
+
+.featured-work {
+    font-size: 30px !important;
 }
