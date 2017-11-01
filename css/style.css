@@ -38,3 +38,10 @@ hr {
 .featured-work {
     font-size: 30px !important;
 }
+
+.hr-row {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-left: 0px;
+    margin-right: 0px;
+}
