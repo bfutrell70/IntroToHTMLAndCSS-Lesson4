@@ -26,6 +26,10 @@ hr {
     margin-top: 20px;
 }
 
+.title-right-div {
+    padding-right: 0px;
+}
+
 .dark-background {
     background-color: #131A2D;
     color: #D0C4AB;
@@ -35,8 +39,14 @@ hr {
     margin-top: 10px;
 }
 
+/* .main-image-div {
+    margin-left: 0px;
+    margin-right: 0px;
+} */
+
 .featured-work {
     font-size: 30px !important;
+    padding-left: 10px;
 }
 
 .hr-row {
